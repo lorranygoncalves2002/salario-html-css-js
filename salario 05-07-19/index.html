@@ -1,0 +1,31 @@
+<DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title> salario </title> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body background="salario.png">
+      <H1> <hr> Aumento do Salario <hr></H1> 
+      <br><br>
+      <form name="form">
+        <label> Escreva o seu nome: </label>
+        <input type="name" id="n" placeholder="Informe o seu nome" size="50" maxlength="80" min="0" required /> <br><br>
+        <label> Salário antigo: </label><br>
+         <input type="number" id="sa" placeholder="Informe o salário inicial" size="50" maxlength="80" min="0" required /> <br><br>
+        <label> Percentual: </label> 
+          <input type="number" id="p" disabled /><br><br>
+        <label> Valor do aumento: </label> 
+          <input type="number" id="v" disabled /><br><br>
+        <label> Salário novo: </label>
+          <input type="number" id="sn" disabled /><br><br>
+      
+        <div ID="botoes">
+             <input type="button" value="Calcular" name="Cacular" onclick="calcular()">
+             <input type="reset" name="limp" value="Limpar"><br><br>
+        </div>
+      </form>
+    </body>
+  </html>
+</DOCTYPE>

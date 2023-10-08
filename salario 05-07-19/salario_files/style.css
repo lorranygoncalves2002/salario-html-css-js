@@ -1,0 +1,53 @@
+body{
+    background-size: cover;
+    text-align: center;
+}
+hr{
+    color: darkslateblue;
+    background-color: darkblue;
+    height: 20px;
+    border: none;
+}
+h1{
+    color: darkblue;
+    text-align: center;
+    background-color: rgba(210,236,255,1);
+    width: 1500px;
+    margin-left: -50px
+}
+form{
+    margin: auto;
+    background-color: rgba(210,236,255,0.9);
+    max-width: 500px;
+    padding: 5px 0px 5px 0px;
+    border-image: url()
+
+}
+label{
+    color: darkgreen;
+    text-align: center;
+    font-family: serif,bodoniMT, text;
+}
+input[type=button]{
+    background-color: #A0DED9;
+    border-bottom-style: groove;
+}
+input[type=reset]{
+    background-color: #A0DED9;
+    border-bottom-style: groove;
+}
+input[disabled]{
+    background-color: #CCF7CA;
+    border-style: double;
+    border-color: #AAF0BA;
+}
+input[id=sa]{
+    background-color: #C9EEF4;
+    border-style: double;
+    border-color: #B6D3DE;
+}
+input[id=n]{
+    background-color: #C9EEF4;
+    border-style: double;
+    border-color: #B6D3DE;
+}
